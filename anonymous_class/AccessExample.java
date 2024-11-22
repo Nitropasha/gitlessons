@@ -11,8 +11,8 @@ public class AccessExample {
     }
 
     public void demonstrateAccess(int param) {
-        int localVar = 30; // Локальная переменная
-        // localVar = 40; // Если раскомментировать, будет ошибка компиляции, потому что localVar не эффективно финальная
+       // int localVar = 30; // Локальная переменная
+        int localVar = 40; // Если раскомментировать, будет ошибка компиляции, потому что localVar не эффективно финальная
 
         // Лямбда-выражение
         Runnable lambda = () -> {
