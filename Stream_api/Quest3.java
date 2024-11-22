@@ -10,7 +10,7 @@ public class Quest3 {
         String randomTo = "...";  // Некоторая случайная строка. Можете выбрать ее самостоятельно.
         int randomSalary = 100;  // Некоторое случайное целое положительное число. Можете выбрать его самостоятельно.
 
-// Создание списка из трех почтовых сообщений.
+
         MailMessage firstMessage = new MailMessage(
                 "Robert Howard",
                 "H.P. Lovecraft",
